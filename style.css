@@ -1,8 +1,15 @@
-html, body, .intro_container {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
 
-.intro_container, section {
+/* CSS Rules for Index Page */
+
+html, body, .container {
+    height: 100%;
+    margin: 0;
+}
+
+.container, .start {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +17,7 @@ html, body, .intro_container {
     color: gray;
 }
 
-h1 {
+.start h1 {
     font-size: 120px;
     margin-bottom: 10px;
 }
@@ -21,6 +28,31 @@ button {
     border-radius: 5px;
 }
 
-.question_total {
+.start_question_total {
     margin-top: 200px;
+}
+
+
+/* Questions 1-5 CSS Rules */
+
+.question_container {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.answer_list li {
+    width: 35%;
+    text-align:center;
+    padding: 5px;
+    margin-top: 5px;
+    list-style: none;
+    border: 1px solid black;
 }
