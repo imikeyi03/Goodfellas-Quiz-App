@@ -2,8 +2,7 @@ html, body, .intro_container {
     height: 100%;
 }
 
-.intro_container {
-    height: 100%;
+.intro_container, section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,5 +11,16 @@ html, body, .intro_container {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 120px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.question_total {
+    margin-top: 200px;
 }
