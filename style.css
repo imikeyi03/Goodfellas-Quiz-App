@@ -49,7 +49,7 @@ button {
 
 
 .answer_list li {
-    width: 35%;
+    width: 40%;
     text-align:center;
     padding: 5px;
     margin-top: 5px;
@@ -64,6 +64,13 @@ button {
 }
 
 .submit_button {
-    width: 75%;
+    width: 65%;
     text-align: right;
+}
+
+
+/* End CSS Rules */
+
+h2 {
+    font-weight: bold;
 }
